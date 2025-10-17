@@ -4,29 +4,29 @@ A collection of beginner-friendly HTML, CSS, and JS projects for Hacktoberfest 2
 
 # How to Contribute:
 
-Fork the repository.
+  1. Fork the repository.
 
-Clone it to your local machine.
+  2. Clone it to your local machine.
 
-Work on your project (HTML/CSS/JS).
+  3. Work on your project (HTML/CSS/JS).
 
-Create a pull request with a description of the changes.
+  4. Create a pull request with a description of the changes.
 
 # Contribution Guidelines:
 
-Keep the code clean and well-commented.
+  1. Keep the code clean and well-commented.
 
-Follow basic coding standards.
+  2. Follow basic coding standards.
 
-Add descriptive commit messages.
+  3. Add descriptive commit messages.
 
 
 # You can also include some project ideas for contributors, like:
 
-Build a simple portfolio page.
+  1. Build a simple portfolio page.
 
-Create a responsive landing page.
+  2. Create a responsive landing page.
 
-Develop a to-do list app with basic JavaScript functionality.
+  3. Develop a to-do list app with basic JavaScript functionality.
 
-Build a trivia quiz app.
+  4. Build a trivia quiz app.
