@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Neon Portfolio — Your Name</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="logo">Your<span>Neon</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="hero-inner">
+      <div class="avatar" aria-hidden="true"></div>
+      <h1 class="name">Hi, I'm <span>Your Name</span></h1>
+      <p class="tagline">I build clean interfaces & delightful user experiences.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#projects">See Projects</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="card about" id="about">
+      <h2>About</h2>
+      <p>
+        I'm a front-end developer with a love for minimal interfaces and neon aesthetics.
+        I build responsive websites using HTML & CSS and keep things simple and accessible.
+      </p>
+      <ul class="skills">
+        <li>HTML</li><li>CSS</li><li>Responsive Design</li><li>UI/UX</li>
+      </ul>
+    </section>
+
+    <section class="card projects" id="projects">
+      <h2>Selected Projects</h2>
+      <div class="project-grid">
+        <article class="project">
+          <div class="project-thumb"></div>
+          <h3>Project One</h3>
+          <p>Landing page with interactive components and micro-animations.</p>
+          <a class="project-link" href="#">View →</a>
+        </article>
+
+        <article class="project">
+          <div class="project-thumb"></div>
+          <h3>Project Two</h3>
+          <p>Responsive portfolio template with dark neon theme.</p>
+          <a class="project-link" href="#">View →</a>
+        </article>
+
+        <article class="project">
+          <div class="project-thumb"></div>
+          <h3>Project Three</h3>
+          <p>Small web app focused on performance and accessibility.</p>
+          <a class="project-link" href="#">View →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="card contact" id="contact">
+      <h2>Contact</h2>
+      <p>Want to collaborate or ask a question? Drop me a message.</p>
+      <form class="contact-form" action="#" method="post">
+        <label>
+          <span class="label-text">Name</span>
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+        <label>
+          <span class="label-text">Email</span>
+          <input type="email" name="email" placeholder="you@example.com" required>
+        </label>
+        <label>
+          <span class="label-text">Message</span>
+          <textarea name="message" rows="4" placeholder="Say hi…" required></textarea>
+        </label>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Your Name — Built with neon vibes.</p>
+  </footer>
+
+  <script>
+    // small script to set year (keeps html tidy)
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
